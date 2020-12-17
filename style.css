@@ -1,0 +1,103 @@
+/* Tar bort margin och padding från body*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body{
+    background-color: #113366;
+}
+
+/* Navbar */
+.container-nav {
+    display: flex;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #36393E;
+}
+
+.item-nav {
+    display: flex;
+    flex-grow: 1;
+
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+    font-family: Arial;
+    background-color: #333333;
+    color: #aaaaaa;
+}
+
+.item-nav + .item-nav {
+    margin: 2%;
+}
+
+.item-nav:hover {
+    transition: all 0.3 ease 0s;
+    color: #3366bb
+}
+
+/* Products */
+.container-products {
+    display: flex;
+    flex-grow: 1;
+
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    background-color: #224488;
+    height: 200px;
+    width: 1382px;
+}
+
+.item-products {
+    display: flex;
+    flex-grow: 1;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    background-color: #333333;
+}
+
+.container-text {
+    display: flex;
+    flex-grow: 1;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    background-color: #224488;
+    height: 50px;
+    width: 1382px;
+}
+
+.product-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+    font-family: Arial;
+    
+}
+
+#apexlogo {
+    width: 160px;
+    height: 160px;
+    align-self: center;
+    margin: auto;
+}
+
+/* Elements below this point */
+
+a {
+    width: 60%;
+    height: 100%;
+    text-decoration: none;
+}
